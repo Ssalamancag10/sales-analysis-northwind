@@ -1,15 +1,27 @@
-# Sales Analysis – Northwind
+# Northwind Sales Dashboard
 
-## Tools
-- SQL
+## 📊 Project Overview
+End-to-end data analysis project using the Northwind dataset.
+
+The project covers:
+- SQL analysis
+- Data modeling
+- Power BI dashboarding
+
+## 🛠️ Tools Used
+- SQL (SQLite)
 - Power BI
-- Python (optional)
+- GitHub
 
-## Objectives
-- Analyze total sales
-- Identify top products and customers
-- Track monthly sales trends
+## 📈 Key Insights
+- Total sales analysis
+- Monthly sales trends
+- Top 5 products by revenue
 
-## Key Insights
-- Sales grow steadily over time
-- Top 5 products generate majority of revenue
+## 🧠 Challenges Solved
+- Data type inconsistencies (decimal separator issues)
+- Data modeling and relationship optimization
+- Validation of Power BI results against SQL queries
+
+## 📷 Dashboard Preview
+![Dashboard](screenshots/dashboard.png)
