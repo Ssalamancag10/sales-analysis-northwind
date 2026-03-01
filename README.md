@@ -24,4 +24,4 @@ The project covers:
 - Validation of Power BI results against SQL queries
 
 ## 📷 Dashboard Preview
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
