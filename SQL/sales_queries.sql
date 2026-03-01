@@ -2,7 +2,6 @@
 SELECT 
     SUM(UnitPrice * Quantity * (1 - Discount)) AS total_sales
 FROM "Order Details";
-
 -- Ventas por mes
 SELECT 
     strftime('%Y-%m', o.OrderDate) AS month,
@@ -11,7 +10,6 @@ FROM Orders o
 JOIN "Order Details" od ON o.OrderID = od.OrderID
 GROUP BY month
 ORDER BY month;
-
 -- Top 5 productos
 SELECT 
     p.ProductName,
